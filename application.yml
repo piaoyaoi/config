@@ -9,3 +9,9 @@ eureka:
 spring:
   application:
     name: usersCenter
+  datasource:
+    druid:
+      username: root
+      password: root
+      url: jdbc:mysql://localhost/example?useSSL=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+      driver-class-name: com.mysql.cj.jdbc.Driver
